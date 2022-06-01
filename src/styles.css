@@ -1,4 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 20px 80px;
+  margin: 10px;
+}
+.logo {
+  font-weight: 800;
+}
+.link {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+}
+.button{
+width: 90px;
+border-radius: 15px;
+background-color:lightseagreen;
+color: white;
+
 }
